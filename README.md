@@ -46,10 +46,12 @@
 
 ```text
 IoT-Intrusion-Detection-PFL/
-├── 1-baseline-NSL-KDD.ipynb      # [1단계] 베이스라인 논문 재현 소스코드
-├── ciciot2023.ipynb              # [2단계] 최신 데이터셋 적용
-├── 3-PFL-entire-finetuning.ipynb # [3단계] PFL 적용 및 모델 고도화 코드 (최종 결과)
-└── README.md                     # 프로젝트 명세서
+├── notebooks/                            # 소스 코드 폴더
+│   ├── 01_Baseline_NSL_KDD.ipynb
+│   ├── 02_Dataset_CICIoT2023.ipynb
+│   └── 03_PFL_Full_Finetuning.ipynb
+├── IoT-Intrusion-Detection-PFL.pdf       # 발표 자료
+└── README.md                             # README
 ```
 
 ## 5. 실행 매뉴얼
