@@ -46,10 +46,11 @@
 
 ```text
 IoT-Intrusion-Detection-PFL/
-├── notebooks/                            # 소스 코드 폴더
-│   ├── 01_Baseline_NSL_KDD.ipynb
-│   ├── 02_Dataset_CICIoT2023.ipynb
-│   └── 03_PFL_Full_Finetuning.ipynb
+├── Code/                            # 소스 코드 폴더
+│   ├── 1-baseline-NSL-KDD.ipynb
+│   ├── 2-ciciot-2023-fl.ipynb
+│   ├── 2-1-ciciot-2023-fl.ipynb
+│   └── 3-PFL-entire-finetuning.ipynb
 ├── IoT-Intrusion-Detection-PFL.pdf       # 발표 자료
 └── README.md                             # README
 ```
